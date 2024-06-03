@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Steps Form Widget</title>
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>MULTI STEPS FORM WIDGET</h1>
+        <div class="form-box">
+            <div class="step-header">
+                <h>Profile</h>
+            </div>
+            <form>
+                <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+                <input type="tel" id="phone" name="phone" placeholder="Phone">
+                <div class="gender">
+                    <label>Gender :</label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" value="female"> Female
+                    </label>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" value="male"> Male
+                    </label>
+                </div>
+                <textarea id="address" name="address" placeholder="Address"></textarea>
+                <button type="button">Next</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
